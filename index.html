@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,72 @@
     <!-- CSS Link -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
+<div id="header" class="container text-center p-3">
+
+     <div class="row">
+        <div class="col pt-2"></div>
+        <div class="col pt-2"></div>
+        <div class="col pt-2"></div>
+     </div>
+
+     <div class="row pt-2">
+        <div class="col">
+            <h1>Tic - Tac - Toe</h1>
+        </div>
+     </div>
+
+     <div class="row pt-2">
+        <div class="col fs-2">Player 1 - X</div>
+        <div class="col fs-2"></div>
+        <div class="col fs-2">Player 2 - O</div>
+     </div>
+
+</div>
+
+<!-- ALERTS -->
+<div id="alertStart" class="alert alert-success" role="alert">
+    Turn - Player 1
+  </div>
+
+  <div id="alertWinner" class="alert alert-success" role="alert">
     
+  </div>
 
+  <div id="alertDraw" class="alert alert-success" role="alert">
+    GAME OVER - NO WINNERS!
+  </div>
+    
+<!-- GRID -->
+ <div class="container m-auto p-3 g-5">
 
+    <div id="grid" class="container-outline-light m-auto p-0 text-info
+     text-center align-middle border border-info">
 
+        <div class="row fs-1 g-0">
+            <div id="box0" class="box col p-3 border border-info"></div>
+            <div id="box1" class="box col p-3 border border-info"></div>
+            <div id="box2" class="box col p-3 border border-info"></div>
+        </div>
+
+        <div class="row fs-1 g-0">
+            <div id="box3" class="box col p-3 border border-info"></div>
+            <div id="box4" class="box col p-3 border border-info"></div>
+            <div id="box5" class="box col p-3 border border-info"></div>
+        </div>
+
+        <div class="row fs-1 g-0">
+            <div id="box5" class="box col p-3 border border-info"></div>
+            <div id="box7" class="box col p-3 border border-info"></div>
+            <div id="box8" class="box col p-3 border border-info"></div>
+        </div>
+    </div>
+
+ </div>
+
+<!-- BUTTONS -->
 
 
 <!-- JS Link-->
